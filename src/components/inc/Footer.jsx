@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from './assets/logo.png'
+import logo from '@/assets/logo.png'
 import { CiFacebook } from "react-icons/ci";
 import { TiSocialTwitterCircular } from "react-icons/ti";
 import { CiLinkedin } from "react-icons/ci";

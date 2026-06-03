@@ -1,6 +1,7 @@
 import React from 'react'
-import logo from './assets/logo.png'
+import logo from '@/assets/logo.png'
 import { FaBars } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 function Header() {
     return (
@@ -11,11 +12,21 @@ function Header() {
                         <img src={logo} alt="" />
                     </div>
                     <ul className='hidden md:flex items-center gap-5 text-md font-semibold'>
-                        <li className='hover:text-[#0AA8A7]'><a href="#">Home</a></li>
-                        <li className='hover:text-[#0AA8A7]'><a href="#">Blog</a></li>
-                        <li className='hover:text-[#0AA8A7]'><a href="#">Pricing</a></li>
-                        <li className='hover:text-[#0AA8A7]'><a href="#">Contact</a></li>
-                        <li className='hover:text-[#0AA8A7]'><a href="#">FAQ</a></li>
+                        <li className='hover:text-[#0AA8A7]'>
+                            <Link to={'/'}>Home</Link>
+                        </li>
+                        <li className='hover:text-[#0AA8A7]'>
+                            <Link to={'/blog'}>Blog</Link>
+                        </li>
+                        <li className='hover:text-[#0AA8A7]'>
+                            <Link to={'/pricing'}>Pricing</Link>
+                        </li>
+                        <li className='hover:text-[#0AA8A7]'>
+                            <Link to={'/contact'}>Contact</Link>
+                        </li>
+                        <li className='hover:text-[#0AA8A7]'>
+                            <Link to={'/faq'}>FAQ</Link>
+                        </li>
                     </ul>
                     <div className="btn hidden md:block bg-[#0AA8A7] text-white py-3 px-8 rounded-3xl hover:scale-105 transition-transform cursor-pointer">
                         <a href="#">Get Started</a>

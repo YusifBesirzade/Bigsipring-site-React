@@ -1,6 +1,6 @@
 import React from 'react'
-import banner from './assets/banner.svg'
-import cta from './assets/cta.svg'
+import banner from '@/assets/banner.svg'
+import cta from '@/assets/cta.svg'
 
 function Experience() {
     return (

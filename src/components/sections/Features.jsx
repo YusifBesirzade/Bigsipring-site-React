@@ -1,10 +1,10 @@
 import React from 'react'
-import code from './assets/feature1.svg'
-import oop from './assets/feature2.svg'
-import service from './assets/feature3.svg'
-import love from './assets/feature4.svg'
-import speed from './assets/feature5.svg'
-import cloud from './assets/feature6.svg'
+import code from '@/assets/feature1.svg'
+import oop from '@/assets/feature2.svg'
+import service from '@/assets/feature3.svg'
+import love from '@/assets/feature4.svg'
+import speed from '@/assets/feature5.svg'
+import cloud from '@/assets/feature6.svg'
 
 function Features() {
     return (

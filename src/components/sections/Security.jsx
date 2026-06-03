@@ -1,5 +1,5 @@
 import React from 'react'
-import security from './assets/security.png'
+import security from '@/assets/security.png'
 import { FaArrowRight } from "react-icons/fa";
 
 function Security() {
